@@ -24,8 +24,8 @@ describe('GET /books', () => {
   it('is expected to return index of books', () => {
     const expectedResponse = {
       books: [
-        { title: 'fun with node', author: 'T ochman' },
-        { title: 'Fun with node Part II', author: 't ochman' },
+        { title: 'Learn NodeJS with Thomas', author: 'T Ochman' },
+        { title: 'Learn Sequelize with Thomas', author: 'T Ochman' },
       ],
     }
     expect(response.body).to.eql(expectedResponse)
